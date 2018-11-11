@@ -20,9 +20,9 @@
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
-        <span class="strong">66.67% </span>
+        <span class="strong">60% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>4/6</span>
+        <span class='fraction'>6/10</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
@@ -30,14 +30,14 @@
         <span class='fraction'>0/0</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">66.67% </span>
+        <span class="strong">60% </span>
         <span class="quiet">Functions</span>
-        <span class='fraction'>2/3</span>
+        <span class='fraction'>3/5</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">66.67% </span>
+        <span class="strong">60% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>4/6</span>
+        <span class='fraction'>6/10</span>
       </div>
     </div>
     <p class="quiet">
@@ -72,57 +72,63 @@
 <a name='L24'></a><a href='#L24'>24</a>
 <a name='L25'></a><a href='#L25'>25</a>
 <a name='L26'></a><a href='#L26'>26</a>
-<a name='L27'></a><a href='#L27'>27</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">'use strict';
 &nbsp;
 class List {
   constructor () {
-    this.length = 0
+    this.length = 0;
   }
 &nbsp;
-push(item) {
-  this[this.length++] = item;
-  return this.length;
+<span class="fstat-no" title="function not covered" >  pu</span>sh(item) {
+<span class="cstat-no" title="statement not covered" >    this[this.length++] = item;</span>
+<span class="cstat-no" title="statement not covered" >    return this.length;</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  po</span>p(item) {
+<span class="cstat-no" title="statement not covered" >    this[this.length++] = item;</span>
+<span class="cstat-no" title="statement not covered" >    return this.length;</span>
+  }
+&nbsp;
+  getLength(array) {
+    let counter = 0;
+    array.forEach(() =&gt;
+      counter++
+    );
+    return counter;
+  }
 }
-&nbsp;
-<span class="fstat-no" title="function not covered" >po</span>p(item) {
-<span class="cstat-no" title="statement not covered" >  this[this.length++] = item;</span>
-<span class="cstat-no" title="statement not covered" >  return this.length;</span>
-}
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-}
-&nbsp;
 &nbsp;
 module.exports = List;
-&nbsp;
 &nbsp;
 &nbsp;</pre></td></tr>
 </table></pre>
@@ -130,7 +136,7 @@ module.exports = List;
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon May 21 2018 21:22:17 GMT-0700 (PDT)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sun Nov 11 2018 15:38:39 GMT-0800 (Pacific Standard Time)
 </div>
 </div>
 <script src="prettify.js"></script>

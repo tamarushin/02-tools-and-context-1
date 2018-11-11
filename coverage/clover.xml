@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1526962937188" clover="3.2.0">
-  <project timestamp="1526962937188" name="All files">
-    <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2" elements="9" coveredelements="6" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1">
+<coverage generated="1541979519469" clover="3.2.0">
+  <project timestamp="1541979519469" name="All files">
+    <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3" elements="15" coveredelements="9" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1">
       <file name="list.js" path="/Users/tamarushin/cf/401n/02-tools-and-context-1/lab-tama/lib/list.js">
-        <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
+        <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
       </file>
     </metrics>
   </project>
